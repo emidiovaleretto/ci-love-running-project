@@ -2,6 +2,27 @@ body {
     font-family: Arial;
 }
 
+#heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+#heading h1 {
+    text-transform: uppercase;
+}
+
+#navigation li{
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0.5em
+}
+
+a {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
 }
