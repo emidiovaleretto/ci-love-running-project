@@ -9,29 +9,17 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
 
-#heading {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px;
-}
-
-#heading h1 {
+h1, h2 {
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
 
-#navigation li{
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    margin: 0.5em
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
+#logo {
+    float: left;
+    font-size: 280%;
 }
