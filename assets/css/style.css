@@ -97,6 +97,12 @@ h1, h2 {
     }
 }
 
+#welcome {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 240%;
+}
+
 #club-ethos {
     height: 600px;
 }
@@ -146,4 +152,19 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+.center-about-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+#ethos-center-image {
+    background: url("../images/ethos-center-image.jpg") no-repeat center -20px;
+    height: 100%;
+    border-radius: 50%;
 }
