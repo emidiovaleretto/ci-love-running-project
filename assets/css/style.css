@@ -168,3 +168,22 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+#social-network {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#social-network li {
+    float: left;
+    list-style-type: none;
+    margin: 5%;
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#social-network a {
+    text-decoration: none;
+    color: inherit;
+}
