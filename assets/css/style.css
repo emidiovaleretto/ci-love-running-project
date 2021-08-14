@@ -99,12 +99,13 @@ h1, h2 {
 
 #welcome {
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0;
     font-size: 240%;
 }
 
 #club-ethos {
     height: 600px;
+    margin-top: 50px;
 }
 
 #left-about {
