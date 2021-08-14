@@ -169,12 +169,20 @@ hr {
     border-radius: 50%;
 }
 
+#meetup {
+    background-image: url("../images/dublin-city.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
 #meetup div {
     width: 100%;
     clear: both;
     height: 150px;
     padding: 0;
-    border: 1px solid black;
 }
 
 #social-network {
