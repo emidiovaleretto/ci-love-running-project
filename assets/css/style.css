@@ -169,6 +169,14 @@ hr {
     border-radius: 50%;
 }
 
+#meetup div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+    border: 1px solid black;
+}
+
 #social-network {
     width: 50%;
     margin: 0 auto;
