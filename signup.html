@@ -31,19 +31,26 @@
         <section id="form-section">
             <form id="signup-form" action="">
                 <h2><i class="fas fa-heartbeat"></i> Let's get you signed up!</h2>
+                
                 <label for="first-name">First Name</label><br>
-                <input type="text" id="first-name" name="first_name"><br>
+                <input class="text-input" type="text" id="first-name" name="first_name" required><br>
+
                 <label for="last-name">Last Name</label><br>
-                <input type="text" id="last-name" name="last_name"><br>
+                <input class="text-input" type="text" id="last-name" name="last_name" required><br>
+
                 <label for="email">Email Address</label><br>
-                <input type="email" id="email" name="user_email"><br>
-                <label for="radio-road">Road</label>
-                <input type="radio" id="radio-trail" name="radio">
-                <label for="radio-trail">Trail</label>
-                <input type="radio" id="radio-both" name="radio">
-                <label for="radio-both">Both</label>
-                <input type="radio" id="radio-road" name="radio"><br>
-                <input type="submit" value="Let's Run!">
+                <input class="text-input" type="email" id="email" name="user_email" required><br>
+
+                <label for="road">Road</label>
+                <input type="radio" id="road" name="preference" required>
+
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail" name="preference" required>
+
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="preference" required><br>
+
+                <input class="join-button" type="submit" value="Let's Run!">
             </form>
             </div>
         </section>
