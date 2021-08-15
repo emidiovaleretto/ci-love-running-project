@@ -195,21 +195,27 @@ hr {
     color: #fafafa;
 }
 
+footer {
+    height: 150px;
+}
+
 #social-network {
-    width: 50%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 #social-network li {
-    float: left;
+    display: inline;
     list-style-type: none;
-    margin: 5%;
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
 }
 
 #social-network a {
     text-decoration: none;
     color: inherit;
+}
+
+#social-network i {
+    font-size: 160%;
+    margin: 5%;
+    padding: 2%;
+    color: #3a3a3a;
 }
