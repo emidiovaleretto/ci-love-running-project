@@ -313,3 +313,14 @@ footer {
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        /* float: left; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        line-height:25px;
+    }
+}
