@@ -361,23 +361,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
     #gallery {
         column-count: 2;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #menu {
-        clear: left;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        line-height:25px;
-    }
-
-    #gallery {
-        column-count: 1;
     }
 }
